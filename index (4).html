@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>charity: water - Water Drop Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="game-wrapper">
+
+    <!-- Logo -->
+    <img
+      src="img/cw_logo.png"
+      alt="charity: water logo"
+      class="logo"
+    />
+
+    <!-- Title -->
+    <h1 class="game-title">Water Drop Challenge</h1>
+    <p class="game-tagline">
+      Catch as many water drops as possible before time runs out!
+    </p>
+
+    <!-- Score and Timer -->
+    <div class="score-panel">
+      <div class="score">
+        Score: <span id="score">0</span>
+      </div>
+
+      <div class="timer">
+        Time: <span id="time">30</span>s
+      </div>
+    </div>
+
+    <!-- Start Button -->
+    <button id="start-btn">Start Game</button>
+
+    <!-- Game Area -->
+    <div id="game-container"></div>
+
+    <!-- End Message -->
+    <p id="message"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
